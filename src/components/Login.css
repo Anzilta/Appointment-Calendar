@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f6f8;
+}
+
+.login-page {
+  height: 90vh;
+}
+
+.login-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.login-box {
+  width: 750px;
+  text-align: center;
+}
+
+.login-title {
+  font-weight: bold;
+  color: #1976d2;
+  margin-bottom: 8px;
+}
+
+.login-image {
+  background: linear-gradient(to bottom right, #798fa5, #42a5f5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-image img {
+  width: 770px;
+  object-fit: contain;
+}
+

@@ -1,0 +1,32 @@
+.react-calendar-custom {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  font-size: 1.1rem;
+}
+
+.react-calendar {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+/* src/CalendarPage.css */
+
+.calendar-full {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 80vh;
+  font-size: 1.1rem;
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: clean up calendar UI */
+.react-calendar__tile {
+  min-height: 80px;
+}
+
+.react-calendar__tile abbr {
+  font-weight: bold;
+}
