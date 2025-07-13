@@ -34,7 +34,8 @@ body {
 }
 
 .login-image img {
-  width: 770px;
+  width: 785px;
+
   object-fit: contain;
 }
 
